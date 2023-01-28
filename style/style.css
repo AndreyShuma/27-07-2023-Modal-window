@@ -5,39 +5,41 @@
 .header .wrapper:not(.show) {
   display: none;
 }
-.header .wrapper {
-  color: white;
-  background-color: black;
-  opacity: 0.35;
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.45);
   position: absolute;
-  z-index: 10;
+  z-index: 1;
+  top: 0;
   left: 0;
   right: 0;
-  top: 0;
   bottom: 0;
 }
-.header .wrapper .window {
-  display: block;
+.wrapper .window {
   position: absolute;
+  z-index: 2;
   top: 30%;
   left: 35%;
   text-align: center;
   width: 500px;
   height: 250px;
-  border: 3px solid white;
-  background-color: rgb(6, 6, 240);
+  background-color: rgb(223, 225, 233);
   line-height: 25px;
+  color: black;
 }
-.header .wrapper .window .window1 {
+.wrapper .window .window1 {
   text-align: center;
   border-bottom: 3px solid white;
+  background-color: #0e0eb8;
+  color: white;
 }
-.header .wrapper .window .window2 {
+.wrapper .window .window2 {
   text-align: left;
   padding: 5px;
 }
-.header .wrapper .window .btn-close {
+.wrapper .window .btn-close {
   position: absolute;
   right: 10px;
   bottom: 10px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

@@ -5,10 +5,10 @@ const btn = document.querySelector('.btn');
 const btn_close = document.querySelector('.btn-close');
 
 btn.addEventListener('click', () => {
-    wrapper.classList.toggle('show');
+    wrapper.classList.add('show');
 });
 btn_close.addEventListener('click', () => {
-    wrapper.classList.toggle('show');
+    wrapper.classList.remove('show');
 });
 
 // console.log(btn);
