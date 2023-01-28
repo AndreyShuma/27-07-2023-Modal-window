@@ -1,0 +1,43 @@
+.header {
+  max-width: 800px;
+  margin: 50px auto;
+}
+.header .wrapper:not(.show) {
+  display: none;
+}
+.header .wrapper {
+  color: white;
+  background-color: black;
+  opacity: 0.35;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.header .wrapper .window {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  text-align: center;
+  width: 500px;
+  height: 250px;
+  border: 3px solid white;
+  background-color: rgb(6, 6, 240);
+  line-height: 25px;
+}
+.header .wrapper .window .window1 {
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+.header .wrapper .window .window2 {
+  text-align: left;
+  padding: 5px;
+}
+.header .wrapper .window .btn-close {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
